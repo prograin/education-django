@@ -1,0 +1,93 @@
+<!doctype html>
+<head>
+  <title>New Site</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-width: 1100px;
+      background-color: #29344c;
+      color: white;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+    }
+
+    header {
+      padding-top: 60px;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      gap: 45px;
+    }
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .nav-links .active {
+      border: 2px solid white;
+      border-radius: 25px;
+      padding: 5px 18px;
+    }
+
+    .hero {
+      margin-top: 145px;
+      width: 540px;
+    }
+
+    .hero h1 {
+      font-size: 84px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <nav>
+      <div class="logo">
+        <span>Your Logo</span>
+      </div>
+      <div class="right-nav">
+        <ul class="nav-links">
+          <li><a href="#" class="active">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <h1>Explore</h1>
+      <h2>THE WORLD</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, modi
+        dicta beatae sint, tenetur non harum fuga corporis et exercitationem cum
+        iste quos eaque amet tempora. Quasi minima modi fugiat!
+      </p>
+      <a href="#" class="btn">Get Started</a>
+    </section>
+  </main>
+</body>
